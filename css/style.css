@@ -1,14 +1,14 @@
 * {
     Margin: 0;
     Padding: 0;
-    }
+}
+ul {
+        padding: 0px !important;
+}
 body {
     width: 100%;
     height: 100%;
     margin: auto;
-}
-ul {
-    padding: 0px !important;
 }
 main {
     margin: 0 auto;
@@ -21,7 +21,7 @@ main {
 }
 .logo {
     float: left;
-    padding: 17px;
+    padding: 15px;
     width: 70%;
 }
 .redes-sociais ul li{
@@ -30,24 +30,22 @@ main {
 }
 .urls {
     width: 100%;
-    height: 48px;
+    height: 20px;
     border-top: 3px solid #00bac6;
     border-bottom: 3px solid #00bac6;
 }
 .urls ul {
-    margin-top: 1%;
-    margin-left: 17%;
+    margin-left: 17.5%;
 }
 .urls ul li {
     display: inline-block;
     font-size: 18px;
     text-transform: uppercase;
-    height: 48px;
 }
 .urls ul li a{
     padding: 10px;
     text-decoration: none;
-    color: #8b8b8b;
+    color: #000000;
 }
 .urls ul li a:hover {
     color: #00bac6;
@@ -59,11 +57,36 @@ main {
     width: 100%;
     background-color: #ffffff;
 }
-.menu-lancamentos {
+.menu-3 {
+    width: 100%;
+    height: 100%;
+}
+.populares {
+    height: 100%;
     width: 100%;
     background-color: #252323;
 }
-.lancamentos {
+.populares ul li {
+    padding-left: 8px;
+    margin-top: 2%;
+    margin-left: 17%;
+    display: inline-block;
+    border-left: solid;
+    border-width: 3px;
+    border-left-color: #00bac6;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.poster {
+    margin-top: 2%;
+    margin-left: 18%;
+}
+.poster img {
+    margin-left: 1%;
+}
+.poster a img{
     width: 100%;
-    margin-left: 16%;
+    border-radius: 10px 10px;
+    width: 146px;
 }
