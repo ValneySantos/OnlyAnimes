@@ -1,2 +1,2 @@
-# OnlyAnimes (Não em finalizado)
+# OnlyAnimes (Não finalizado)
   
