@@ -1,0 +1,124 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Times New Roman';
+    color: yellow;
+}
+body{
+    background-color: cornflowerblue;
+}
+img{
+    max-width: 100%;
+    border-radius: 10px 10px;
+}
+.header{
+    width: 100%;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+}
+.menu img{
+    width: 37px;
+}
+.menu li{
+    margin-left: 1%;
+}
+.menu li a{
+    display: block;
+    padding: 5px;
+}
+/*---------------------------------------------------------------*/
+.form ul {
+    margin-top: 10px;
+}
+.form li{
+    margin-top: 10px;
+    padding-left: 8px;
+    display: flex;
+    border-left: solid;
+    border-width: 3px;
+    border-left-color: green;
+    font-size: 20px;
+    color: yellow;
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 59%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.menu-2 {
+    background-color: #00bac6;
+    width: 100vw;
+    margin: 0 auto;
+}
+.urls{
+    /*border: 3px solid firebrick;*/
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.urls li{
+    margin-left: 1vw;
+    padding: 0.6vh;
+    height: 2.5vh;
+}
+.urls li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.urls li a:hover{
+    color: #ffffff; 
+}
+.urls li:hover{
+    color: rgb(0, 0, 0);
+    background-color: #10323531;
+    border-top:2px solid #0000004d;
+    border-bottom:2px solid #0000004d;
+    margin-left: 1vw;
+    padding: 0.3vh;
+     /*
+    border-bottom: 2px solid #ffffff;
+    */
+}
+
+.menu-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 58vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.menu-3 div{
+    text-align: center;
+    align-items: flex-end;
+}
+.menu-3 img {
+    width: 146px;
+}
+/* Css FlexBox 1 */
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+.flex div{
+    flex: 1 1 250px;
+    text-align: center;
+    margin: 10px;
+}
+
