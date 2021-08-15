@@ -14,7 +14,7 @@ img{
 }
 .header{
     width: 100%;
-    background-color: darkslategray;
+    background-color: rgb(95, 34, 42);
     display: flex;
     justify-content: space-around;
     align-items: center;
