@@ -1,2 +1,2 @@
-# OnlyAnimes (Não finalizado)
+# OnlyAnimes (Não finalizado) 🛠️
   
